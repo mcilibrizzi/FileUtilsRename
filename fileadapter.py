@@ -78,6 +78,6 @@ class FileAdapter:
 
 
 if __name__ == "__main__":
-    file_adapter = FileAdapter("/home/matteo/Videos/")
+    file_adapter = FileAdapter("/home/matteo/")
     file_adapter.discover_list_file()
     file_adapter.move_file()
